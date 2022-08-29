@@ -38,9 +38,10 @@
 //задача 23
 Console.WriteLine("Введите число");
 double num = Convert.ToInt32(Console.ReadLine());
+Console.Write(1);
 
-for (int i = 1; i <= num; i++)
+for (int i = 2; i <= num; i++)
 {
-    Console.Write(Math.Pow(i, 3));
     Console.Write(", ");
+    Console.Write(Math.Pow(i, 3));
 }
